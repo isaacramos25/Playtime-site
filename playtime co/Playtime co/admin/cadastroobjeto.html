@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro -Objeto tema</title>
+    <link rel="stylesheet" href="/Playtime co/style.css">
+</head>
+<body>
+   <header>
+        <img src="https://bit.ly/4uP4con" width="100px" height="50px" alt="Logo da PlayGood">
+         <h1><span class="p">P</span>laytime Co.</span></h1>
+
+        <h2>Área Administrativa</h2>
+        <nav>
+            <details>
+                <summary>Menu</summary>
+                <a href="/Playtime co/paginaincial.html">Início</a><br>
+                <a href="/Playtime co/admin/login.html">Admin</a><br>
+                <ul>
+                    <li><a href="/Playtime co/admin/cadastrouser.html">Cadastrar Usuário</a><br></li>
+                    <li><a href="/Playtime co/admin/cadastroobjeto.html">Cadastrar Objeto</a></li>
+                </ul>
+            </details>
+        </nav>
+        <br>
+    </header>
+        <h3>Cadastro de item</h3>
+    <form>
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br>
+        <br> 
+        <label for="descricao">Descrição:</label><br>
+        <textarea id="descricao" name="descricao" rows="4" cols="20" required></textarea><br>
+        <label for="preco">Preço:</label><br>
+        <input type="number" id="preco" name="preco" required><br>
+        <br>    
+        <label for="categoria">Foto:</label><br>
+        <input type="file" id="categoria" name="categoria" required><br>
+        <br>
+        <button type="submit">Cadastrar</button>
+    </form>
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+                <th>Opções</th>
+            </tr><br>
+            <!-- Exemplo de objeto cadastrado -->
+            <tr>
+                <td>Lily Lovebraids </td>
+                <td>Boneca de plástico, com cabelo roxo trançado.</td>
+                <td>$25</td>
+                <td>
+                    <button type="submit">Editar</button>
+                    <button type="submit">Excluir</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Huggy Huggy</td>
+                <td>Boneco de poliéster azul.</td>
+                <td>$30</td>
+                <td>
+                    <button type="submit">Editar</button>
+                    <button type="submit">Excluir</button>
+                </td>
+            </tr>
+            <tr>
+                <td>Bunzo Bunny</td>
+                <td>Lebre amarela temática para aniversários.</td>
+                <td>$20</td>
+                <td>
+                    <button type="submit">Editar</button>
+                    <button type="submit">Excluir</button>
+            </tr>
+        </table>
+    <footer>
+        <p>Autor: Playtime Co.</p>
+        <a href="/Playtime co/sobre.html">Sobre Nós</a>
+    </footer>
+</body>
+</html>

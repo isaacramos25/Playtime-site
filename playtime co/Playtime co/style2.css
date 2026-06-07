@@ -1,0 +1,81 @@
+body {background-color: rgb(253, 238, 167);
+font-family: sans-serif;
+width: 100%;}
+
+nav {background-color: rgb(187, 180, 63);
+     background-position: top;
+     margin: -5px;
+     padding: 10px;
+     font-family:blippo, sans-serif;
+     display: flex;
+     gap: 22px;
+     list-style: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;}
+
+main {
+     width: 100%;
+     border: 1ch solid rgb(230, 76, 76);
+     margin:45px;
+     padding: 34px;
+     margin-top: 80px;
+     top:0;}
+header{width: 100%;
+     text-align: center;}
+     section{
+     margin: 15px;
+     padding: 10px;
+     max-width: 100%;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap:2px;}
+
+article {border: 1ch solid blue;
+     margin: 2px;
+     padding: 10px;
+     font-family: blippo,sans-serif;}
+
+div.detalhes {border: 10px solid red;
+               margin: 2px;
+               padding: 10px;}
+
+
+
+h2,h3 {font-family:blippo, sans-serif;
+          color: rgb(48, 49, 96);
+          font-size: 23px;}
+
+
+section.toys{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;}
+
+img {max-width: 100%;
+     height:auto;}
+
+.menu-container nav {
+    display: none;
+}
+
+.fechar-menu {
+    display: none;
+}
+
+.abrir-menu {
+    display: inline-block;
+}
+
+.menu-container:hover nav {
+    display: block;
+}
+
+.menu-container:hover .abrir-menu {
+    display: none;
+}
+
+.menu-container:hover .fechar-menu {
+    display: inline-block;
+}
